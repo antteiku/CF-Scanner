@@ -280,7 +280,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**If you find CF-Scanner useful, consider starring the repo!**
+**If you find CF-Scanner useful, consider starring the repo⭐!**
 
 © 2026 Antteiku. All rights reserved.
 
