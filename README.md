@@ -8,7 +8,7 @@
 
 **A blazing-fast, zero-dependency Python tool for scanning up to 1,000,000 Cloudflare IPs — with Geo-IP lookup and native Telegram delivery.**
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-green.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20Termux-orange.svg)](#supported-platforms)
 [![Dependencies](https://img.shields.io/badge/Dependencies-None-brightgreen.svg)](#requirements)
@@ -94,6 +94,11 @@ Pick the block for your platform, paste it into a terminal, and you're running.
 <summary><b>Termux (Android)</b></summary>
 
 ```bash
+# Update Termux and install prerequisites
+pkg update && pkg upgrade -y
+pkg install python curl -y
+
+# Download and run the scanner
 curl -fsSL https://raw.githubusercontent.com/antteiku/CF-Scanner/main/Scanner.py -o Scanner.py
 python3 Scanner.py
 ```
@@ -269,7 +274,7 @@ Make sure you pressed Start on your bot, and that both the Bot Token and Chat ID
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 — see the [LICENSE](https://www.gnu.org/licenses/gpl-3.0) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
