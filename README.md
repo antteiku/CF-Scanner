@@ -41,6 +41,5 @@ Requirements
 - Python 3.x
 - No additional libraries required
 
-Disclaimer
 
-This tool is intended for educational purposes and authorized network testing. Only scan IP addresses and ports that you have permission to test.
+© 2026 Antteiku. All rights reserved.
