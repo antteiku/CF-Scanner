@@ -1,8 +1,6 @@
 # CF-Scanner
 A Python tool for scanning Cloudflare IP ranges, built for educational and authorized testing
 
-Cloudflare IP Scanner
-
 Features
 
 - Scan up to 1,000,000 Cloudflare IP addresses
