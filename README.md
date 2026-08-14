@@ -101,7 +101,7 @@ sudo dnf install curl -y
 sudo pacman -S curl
 ```
 
-#### 🪟 Windows (PowerShell)
+## 🪟 Windows (PowerShell)
 
 ```powershell
 # Download the scanner
@@ -110,7 +110,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/antteiku/CF-Scanner/ma
 # Run the scannerpython Scanner.py
 ```
 
-#### 🪟 Windows (CMD with curl)
+## 🪟 Windows (CMD with curl)
 
 ```cmd
 curl -fsSL https://raw.githubusercontent.com/antteiku/CF-Scanner/main/Scanner.py -o Scanner.py
@@ -119,7 +119,19 @@ python Scanner.py
 
 ---
 
-### Alternative: Git Clone
+
+## 🍎 macOS
+
+```bash
+# Download the scanner
+curl -fsSL https://raw.githubusercontent.com/antteiku/CF-Scanner/main/Scanner.py -o Scanner.py
+
+# Run the scanner
+python3 Scanner.py
+```
+
+
+## Alternative: Git Clone
 
 ```bash
 git clone https://github.com/antteiku/CF-Scanner.git
