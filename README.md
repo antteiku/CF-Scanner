@@ -94,13 +94,9 @@ Pick the block for your platform, paste it into a terminal, and you're running.
 <summary><b>Termux (Android)</b></summary>
 
 ```bash
-# Update Termux and install prerequisites
-pkg update && pkg upgrade -y
-pkg install python curl -y
-
-# Download and run the scanner
 curl -fsSL https://raw.githubusercontent.com/antteiku/CF-Scanner/main/Scanner.py -o Scanner.py
-python3 Scanner.py```
+python3 Scanner.py
+```
 </details>
 
 <details>
@@ -279,7 +275,7 @@ This project is licensed under the GNU General Public License v3.0 — see the [
 
 <div align="center">
 
-**If you find CF-Scanner useful, consider starring the repo!⭐**
+**If you find CF-Scanner useful, consider starring the repo!**
 
 © 2026 Antteiku. All rights reserved.
 
