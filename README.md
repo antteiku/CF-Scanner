@@ -1,3 +1,19 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/antteiku/CF-Scanner/main/banner.png" alt="CF-Scanner Banner" width="100%">
+
+# 🌩️ CF-Scanner
+
+### Cloudflare IP Scanner
+
+**A blazing-fast Python tool for scanning up to 1,000,000 Cloudflare IPs**
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Python](https://img.shields.io/badge/Python-3.6%2B-green.svg)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20Termux-orange.svg)](#)
+
+</div>
+
 # CF-Scanner
 A Python tool for scanning Cloudflare IP ranges, built for educational and authorized testing
 
