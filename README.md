@@ -99,8 +99,8 @@ pkg update && pkg upgrade -y
 pkg install python curl -y
 
 # Download and run the scanner
-curl -fsSL https://raw.githubusercontent.com/antteiku/CF-Scanner/main/Scanner.py -o Scanner.py python3 Scanner.py
-```
+curl -fsSL https://raw.githubusercontent.com/antteiku/CF-Scanner/main/Scanner.py -o Scanner.py
+python3 Scanner.py```
 </details>
 
 <details>
