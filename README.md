@@ -3,9 +3,6 @@ A Python tool for scanning Cloudflare IP ranges, built for educational and autho
 
 Cloudflare IP Scanner
 
-A fast and lightweight Cloudflare IP scanner written in Python.
-No external Python libraries are required.
-
 Features
 
 - Scan up to 1,000,000 Cloudflare IP addresses
